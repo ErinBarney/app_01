@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">app_01</string>
+    <string name="title_home">Account</string>
+    <string name="title_dashboard">Shopping</string>
+    <string name="title_notifications">Point</string>
+    <string name="textview">TextView</string>
+</resources>

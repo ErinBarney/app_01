@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_account">
+
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.erin.app_01.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        android:title = "Account"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_shopping"
+        android:name="com.erin.app_01.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        android:title = "Shopping"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_point"
+        android:name="com.erin.app_01.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        android:title = "Point"
+        tools:layout="@layout/fragment_notifications" />
+</navigation>
